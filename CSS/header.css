@@ -1,0 +1,23 @@
+header li {
+  display: flex;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 3rem;
+  font-size: 1.6rem;
+  color: #75676f;
+  font-weight: 1000;
+}
+
+/* ================== Responsividade 400px ============================= */
+
+@media (max-width: 400px) {
+  header ul {
+    font-size: .8rem;
+    text-align: center;
+    padding-right: 6rem;
+  }
+}

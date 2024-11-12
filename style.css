@@ -1,0 +1,40 @@
+@import url(./CSS/header.css);
+@import url(./CSS/main.css);
+@import url(./CSS/footer.css);
+@font-face {
+  font-family: "gotham";
+  src: url(./Assets/Fonte/GothamMedium_1.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  font-family: gotham;
+  text-decoration: none;
+}
+#total {
+  display: flex;
+}
+#lateral {
+  width: 20%;
+  background-color: #23121b;
+}
+#geral {
+  width: 80%;
+  background-image: linear-gradient(to bottom, #5f3149, #160b11 68%);
+}
+
+
+/* ================== Responsividade 400px ============================= */
+
+@media (max-width: 400px) {
+  #lateral {
+    width: 27%;
+  }
+}
