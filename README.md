@@ -11,7 +11,7 @@ Site Desenvolvido em tecnologia HTML e CSS com responsividade presente em tablet
 
 <div align=center>
     
-[Acesse aqui](jvs2001.github.io/Spotify-Trabalho/)
+[Acesse aqui](https://jvs2001.github.io/Spotify-Trabalho/)
 </div>
 
 
